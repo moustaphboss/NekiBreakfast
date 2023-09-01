@@ -1,0 +1,11 @@
+/Users/moustaphakebe/Documents/Development/C# .NET/NekiBreakfast/NekiBreakfast.Contracts/bin/Debug/net7.0/NekiBreakfast.Contracts.deps.json
+/Users/moustaphakebe/Documents/Development/C# .NET/NekiBreakfast/NekiBreakfast.Contracts/bin/Debug/net7.0/NekiBreakfast.Contracts.dll
+/Users/moustaphakebe/Documents/Development/C# .NET/NekiBreakfast/NekiBreakfast.Contracts/bin/Debug/net7.0/NekiBreakfast.Contracts.pdb
+/Users/moustaphakebe/Documents/Development/C# .NET/NekiBreakfast/NekiBreakfast.Contracts/obj/Debug/net7.0/NekiBreakfast.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/moustaphakebe/Documents/Development/C# .NET/NekiBreakfast/NekiBreakfast.Contracts/obj/Debug/net7.0/NekiBreakfast.Contracts.AssemblyInfoInputs.cache
+/Users/moustaphakebe/Documents/Development/C# .NET/NekiBreakfast/NekiBreakfast.Contracts/obj/Debug/net7.0/NekiBreakfast.Contracts.AssemblyInfo.cs
+/Users/moustaphakebe/Documents/Development/C# .NET/NekiBreakfast/NekiBreakfast.Contracts/obj/Debug/net7.0/NekiBreakfast.Contracts.csproj.CoreCompileInputs.cache
+/Users/moustaphakebe/Documents/Development/C# .NET/NekiBreakfast/NekiBreakfast.Contracts/obj/Debug/net7.0/NekiBreakfast.Contracts.dll
+/Users/moustaphakebe/Documents/Development/C# .NET/NekiBreakfast/NekiBreakfast.Contracts/obj/Debug/net7.0/refint/NekiBreakfast.Contracts.dll
+/Users/moustaphakebe/Documents/Development/C# .NET/NekiBreakfast/NekiBreakfast.Contracts/obj/Debug/net7.0/NekiBreakfast.Contracts.pdb
+/Users/moustaphakebe/Documents/Development/C# .NET/NekiBreakfast/NekiBreakfast.Contracts/obj/Debug/net7.0/ref/NekiBreakfast.Contracts.dll
