@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using NekiBreakfast.Contracts.Breakfast;
+using NekiBreakfast.Models;
 
 namespace NekiBreakfast.Controllers;
 
@@ -8,9 +9,34 @@ namespace NekiBreakfast.Controllers;
 // [Route("breakfasts")] same as above
 public class BreakfastsController : ControllerBase
 {
-    [HttpPost()]
+    
+    [HttpPost]
     public IActionResult CreateBreakfast(CreateBreakfastRequest request) {
-        return Ok(request);
+        var breakfast = new Breakfast(
+            Guid.NewGuid(),
+            request.Name,
+            request.Description,
+            request.StartDateTime,
+            request.EndDateTime,
+            DateTime.UtcNow,
+            request.Savory,
+            request.Sweet);
+
+        // Save Breakfast to database
+        var response = new BreakfastResponse(
+            breakfast.Id,
+            breakfast.Name,
+            breakfast.Description,
+            breakfast.StartDateTime,
+            breakfast.EndDateTime,
+            breakfast.LastModifiedDateTime,
+            breakfast.Savory,
+            breakfast.Sweet);
+
+        return CreatedAtAction(
+            actionName : nameof(GetBreakfast),
+            routeValues : new {id = breakfast.Id},
+            value : response);
     }
 
     [HttpGet("{id:guid}")]
